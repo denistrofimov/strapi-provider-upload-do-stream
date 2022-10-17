@@ -1,0 +1,43 @@
+{
+  "name": "strapi-provider-upload-do-stream",
+  "version": "4.0.5",
+  "description": "Strapi Provider for Digital Ocean Spaces",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "digitalocean",
+    "spaces",
+    "strapi",
+    "v4",
+    "provider"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "2.892.0",
+    "package": "^1.0.1",
+    "urijs": "^1.19.6"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "denis@asap.dev",
+    "name": "Denis Trofimov",
+    "url": "https://asap.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/denistrofimov/strapi-provider-upload-do-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s-piazzano/strapi-provider-upload-do/issues"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT"
+}
